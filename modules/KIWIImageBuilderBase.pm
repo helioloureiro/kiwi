@@ -18,7 +18,7 @@ package KIWIImageBuilderBase;
 #------------------------------------------
 use strict;
 use warnings;
-use Digest::SHA1;
+use Digest::SHA;
 use File::Basename;
 
 #==========================================

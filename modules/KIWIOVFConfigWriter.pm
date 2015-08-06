@@ -23,7 +23,7 @@ package KIWIOVFConfigWriter;
 #------------------------------------------
 use strict;
 use warnings;
-use Digest::SHA1;
+use Digest::SHA;
 use Readonly;
 
 require Exporter;

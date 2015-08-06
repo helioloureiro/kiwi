@@ -36,6 +36,18 @@ kiwi --build suse-XXX-JeOS -d /tmp/myimage --type iso
 kvm -cdrom /tmp/myimage/*.iso
 ```
 
+Ubuntu packages required
+------------------------
+
+Ubuntu requires a few extra packages in system in order to build images:
+
+ libclass-singleton-perl
+ libfile-slurp-perl
+ libreadonly-perl
+ libdigest-sha-perl
+
+It was just tested on Ubuntu 14.04, but probably works fine on Debian 8.
+
 Mailing list
 ------------
 
