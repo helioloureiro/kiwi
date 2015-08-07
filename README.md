@@ -45,6 +45,7 @@ Ubuntu requires a few extra packages in system in order to build images:
 * libfile-slurp-perl
 * libreadonly-perl
 * libdigest-sha-perl
+* libtest-unit-perl
 
 It was just tested on Ubuntu 14.04, but probably works fine on Debian 8.
 
